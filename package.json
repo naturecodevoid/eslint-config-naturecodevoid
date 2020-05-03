@@ -1,0 +1,31 @@
+{
+    "name": "eslint-config-naturecodevoid",
+    "version": "1.0.0",
+    "description": "naturecodevoid's Eslint Config",
+    "main": "index.js",
+    "bin": "cli.js",
+    "scripts": {
+        "test": "cd ./test && eslint --config ./.eslintrc.test.js ./main.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/naturecodevoid/eslint-config-naturecodevoid.git"
+    },
+    "author": "naturecodevoid@GitHub, naturecodevoid#6253@Discord",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/naturecodevoid/eslint-config-naturecodevoid/issues"
+    },
+    "homepage": "https://github.com/naturecodevoid/eslint-config-naturecodevoid#readme",
+    "dependencies": {
+        "eslint": "^6.7.1",
+        "eslint-plugin-github": "^3.3.1",
+        "eslint-plugin-prettier": "^3.1.1"
+    },
+    "devDependencies": {
+        "nature-prettier-config": "^1.0.6"
+    },
+    "peerDependencies": {
+        "eslint": ">= 3"
+    }
+}
