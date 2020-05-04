@@ -46,6 +46,7 @@ module.exports = {
         quotes: 0,
         "no-throw-literal": "off",
         "no-undef": "off",
+        "max-depth": 5,
     },
     parserOptions: {
         ecmaVersion: 2017,
