@@ -1,12 +1,12 @@
 {
     "name": "eslint-config-naturecodevoid",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "naturecodevoid's Eslint Config",
     "main": "index.js",
     "bin": "cli.js",
     "scripts": {
         "test": "cd ./test && eslint --config ./.eslintrc.test.js ./main.test.js",
-        "postinstall": "node cli.js"
+        "postinstall": "node cli.js postinstallScript"
     },
     "repository": {
         "type": "git",
